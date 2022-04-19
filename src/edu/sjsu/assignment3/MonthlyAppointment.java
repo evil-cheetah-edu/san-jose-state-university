@@ -3,6 +3,9 @@ package edu.sjsu.assignment3;
 import java.time.LocalDate;
 
 
+/**
+ * Holds Monthly Appointment Information
+ */
 public class MonthlyAppointment extends Appointment
 {
     /**
@@ -16,7 +19,7 @@ public class MonthlyAppointment extends Appointment
     }
 
     /**
-     * @param date if within range & DoM equals to appointment DoM => true
+     * @param date if within range, and DoM equals to appointment DoM => true
      *             else false
      * @return boolean
      */

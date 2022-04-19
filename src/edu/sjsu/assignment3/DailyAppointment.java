@@ -3,6 +3,9 @@ package edu.sjsu.assignment3;
 import java.time.LocalDate;
 
 
+/**
+ * Holds Daily Appointment Information
+ */
 public class DailyAppointment extends Appointment
 {
     /**

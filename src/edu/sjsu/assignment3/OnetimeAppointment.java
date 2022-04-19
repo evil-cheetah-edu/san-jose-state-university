@@ -3,6 +3,9 @@ package edu.sjsu.assignment3;
 import java.time.LocalDate;
 
 
+/**
+ * Holds One Time Appointment Information
+ */
 public class OnetimeAppointment extends Appointment
 {
     /**

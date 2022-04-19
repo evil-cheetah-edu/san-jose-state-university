@@ -3,6 +3,9 @@ package edu.sjsu.assignment3;
 import java.time.LocalDate;
 
 
+/**
+ * Holds description, start_date, end_date
+ */
 public abstract class Appointment implements Comparable<Appointment>
 {
     private final String    description;
