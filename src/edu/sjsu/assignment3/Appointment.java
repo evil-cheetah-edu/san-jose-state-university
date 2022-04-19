@@ -3,7 +3,7 @@ package edu.sjsu.assignment3;
 import java.time.LocalDate;
 
 
-public abstract class Appointment
+public abstract class Appointment implements Comparable<Appointment>
 {
     private final String    description;
     private final LocalDate startDate;
@@ -21,4 +21,25 @@ public abstract class Appointment
     public LocalDate getEndDate()     { return this.endDate;     }
 
     public abstract boolean occursOn(LocalDate date);
+
+    @Override
+    public int compareTo(Appointment a)
+    {
+        /// Check Description
+        if ( !startDate.isEqual( a.startDate ) )
+            return startDate.compareTo( a.startDate );
+
+        /// If Description is the same, Check Start Date
+        if ( !endDate.isEqual( a.endDate ) )
+            return endDate.compareTo( a.endDate );
+
+        /// If Start Date is the same, Check End Date
+        return description.compareTo( a.description );
+    }
+
+    @Override
+    public String toString()
+    {
+        return getDescription() + ' ' + getStartDate() + ' ' + getEndDate();
+    }
 }
