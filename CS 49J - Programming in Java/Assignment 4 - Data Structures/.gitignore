@@ -1,0 +1,6 @@
+# Ignore IDE Files
+.idea/
+*.iml
+
+# Compiled Files
+out/
