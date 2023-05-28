@@ -9,3 +9,4 @@ ___
 3. [Assignment 2 - Arrays, Files and Recursion](./CS%2049J%20-%20Programming%20in%20Java/Assignment%202%20-%20Arrays%2C%20Files%20and%20Recursion/)
 4. [Assignment 3 - Inheritance, Comparators and JavaDocs](./Assignment%203%20-%20Inheritance%2C%20Comparators%20and%20JavaDocs/)
 5. [Assignment 4 - Data Structures](./Assignment%204%20-%20Data%20Structures/)
+6. [Final Assignment - GUI Development](./Final%20Assignment%20-%20GUI%20Development/)
